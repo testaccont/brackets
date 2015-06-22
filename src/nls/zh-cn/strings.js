@@ -364,11 +364,9 @@ define({
     "CMD_ADD_NEXT_MATCH"                  : "将下一项匹配添加至选中内容",
     "CMD_SKIP_CURRENT_MATCH"              : "跳过并添加下一项匹配",
     "CMD_FIND_IN_FILES"                   : "在文件中查找",
-    "CMD_FIND_IN_SELECTED"                : "在选中的文件/文件夹查找",
     "CMD_FIND_IN_SUBTREE"                 : "在该位置查找\u2026",
     "CMD_REPLACE"                         : "替换",
     "CMD_REPLACE_IN_FILES"                : "在文件中替换",
-    "CMD_REPLACE_IN_SELECTED"             : "在选中的文件/文件夹中替换",
     "CMD_REPLACE_IN_SUBTREE"              : "在该位置替换\u2026",
 
     // View menu commands

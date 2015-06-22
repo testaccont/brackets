@@ -365,11 +365,9 @@ define({
     "CMD_ADD_NEXT_MATCH"                  : "Adicionar próximo resultado à seleção",
     "CMD_SKIP_CURRENT_MATCH"              : "Pular e adicionar próximo resultado",
     "CMD_FIND_IN_FILES"                   : "Localizar em arquivos",
-    "CMD_FIND_IN_SELECTED"                : "Localizar no arquivo/diretório selecionado",
     "CMD_FIND_IN_SUBTREE"                 : "Localizar em\u2026",
     "CMD_REPLACE"                         : "Substituir",
     "CMD_REPLACE_IN_FILES"                : "Substituir em arquivos",
-    "CMD_REPLACE_IN_SELECTED"             : "Substituir no arquivo/diretório selecionado",
     "CMD_REPLACE_IN_SUBTREE"              : "Substituir em\u2026",
 
     // View menu commands
@@ -386,10 +384,6 @@ define({
     "CMD_TOGGLE_WORD_WRAP"                : "Quebra automática de linha",
     "CMD_LIVE_HIGHLIGHT"                  : "Destacar Live Preview",
     "CMD_VIEW_TOGGLE_INSPECTION"          : "Analisar arquivos ao salvar",
-    "CMD_SORT_WORKINGSET_BY_ADDED"        : "Ordenar por Data de Adição",
-    "CMD_SORT_WORKINGSET_BY_NAME"         : "Ordenar por Nome",
-    "CMD_SORT_WORKINGSET_BY_TYPE"         : "Ordenar por Tipo",
-    "CMD_SORT_WORKINGSET_AUTO"            : "Ordenação automática",
     "CMD_THEMES"                          : "Temas\u2026",
 
     // Navigate menu Commands

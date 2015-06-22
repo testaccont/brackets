@@ -149,7 +149,6 @@ define({
     "BUTTON_NO"                         : "No",
     
     // Find, Replace, Find in Files
-    "FIND_RESULT_COUNT"                 : "{0} de {1}",
     "FIND_NO_RESULTS"                   : "No hay resultados",
     "FIND_QUERY_PLACEHOLDER"            : "Buscar\u2026",
     "REPLACE_PLACEHOLDER"               : "Reemplazar con\u2026",
@@ -362,11 +361,9 @@ define({
     "CMD_ADD_NEXT_MATCH"                  : "Agregar la siguiente coincidencia a la selección",
     "CMD_SKIP_CURRENT_MATCH"              : "Omitir y agregar la siguiente coincidencia",
     "CMD_FIND_IN_FILES"                   : "Buscar en archivos",
-    "CMD_FIND_IN_SELECTED"                : "Buscar en el archivo/directorio seleccionado",
     "CMD_FIND_IN_SUBTREE"                 : "Buscar en\u2026",
     "CMD_REPLACE"                         : "Reemplazar",
     "CMD_REPLACE_IN_FILES"                : "Reemplazar en archivos",
-    "CMD_REPLACE_IN_SELECTED"             : "Reemplazar en el archivo/directorio seleccionado",
     "CMD_REPLACE_IN_SUBTREE"              : "Reemplazar en\u2026",
     
     // View menu commands

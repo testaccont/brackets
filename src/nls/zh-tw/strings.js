@@ -135,8 +135,6 @@ define({
     "BUTTON_NO"                         : "否",
     
     // Find, Replace, Find in Files
-    "FIND_RESULT_COUNT"                 : "{0} 筆結果",
-    "FIND_RESULT_COUNT_SINGLE"          : "1 筆結果",
     "FIND_NO_RESULTS"                   : "沒有結果",
     "FIND_QUERY_PLACEHOLDER"            : "尋找\u2026",
     "REPLACE_PLACEHOLDER"               : "取代成\u2026",
@@ -329,11 +327,9 @@ define({
     "CMD_ADD_NEXT_MATCH"                  : "一併選取下一筆符合的",
     "CMD_SKIP_CURRENT_MATCH"              : "跳過並選取下一筆符合的",
     "CMD_FIND_IN_FILES"                   : "在檔案中尋找",
-    "CMD_FIND_IN_SELECTED"                : "在選取的檔案或資料夾中尋找",
     "CMD_FIND_IN_SUBTREE"                 : "尋找\u2026",
     "CMD_REPLACE"                         : "取代",
     "CMD_REPLACE_IN_FILES"                : "在檔案中取代",
-    "CMD_REPLACE_IN_SELECTED"             : "在選取的檔案或資料夾中取代",
     "CMD_REPLACE_IN_SUBTREE"              : "取代\u2026",
     
     // View menu commands
@@ -350,10 +346,6 @@ define({
     "CMD_TOGGLE_WORD_WRAP"                : "自動換行",
     "CMD_LIVE_HIGHLIGHT"                  : "即時預覽強調顯示",
     "CMD_VIEW_TOGGLE_INSPECTION"          : "存檔時執行 Lint",
-    "CMD_SORT_WORKINGSET_BY_ADDED"        : "依加入先後排序",
-    "CMD_SORT_WORKINGSET_BY_NAME"         : "依檔名排序",
-    "CMD_SORT_WORKINGSET_BY_TYPE"         : "依類型排序",
-    "CMD_SORT_WORKINGSET_AUTO"            : "自動排序",
     "CMD_THEMES"                          : "佈景主題\u2026",
 
     // Navigate menu Commands
@@ -419,11 +411,8 @@ define({
     
     // Strings for themes-settings.html and themes-general.html
     "CURRENT_THEME"                        : "目前的佈景主題",
-    "CUSTOM_SCROLLBARS"                    : "自訂捲軸",
     "FONT_SIZE"                            : "字體大小",
     "FONT_FAMILY"                          : "字體",
-    "LINE_HEIGHT"                          : "行高",
-    "GENERAL"                              : "一般",
 
     // CSS Quick Edit
     "BUTTON_NEW_RULE"                      : "新增規則",
