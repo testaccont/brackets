@@ -35,7 +35,7 @@ define(function (require, exports, module) {
         HealthDataUtils     = require("HealthDataUtils"),
         uuid                = require("thirdparty/uuid");
 
-    var prefs = PreferencesManager.getExtensionPrefs("healthData");
+    var prefs      = PreferencesManager.getExtensionPrefs("healthData");
 
     prefs.definePreference("healthDataTracking", "boolean", true, {
         description: Strings.DESCRIPTION_HEALTH_DATA_TRACKING
@@ -77,7 +77,14 @@ define(function (require, exports, module) {
                 oneTimeHealthData.installedExtensions = userInstalledExtensions;
             })
             .always(function () {
-                return result.resolve(oneTimeHealthData);
+                HealthDataUtils.getUserInstalledTheme()
+                    .done(function (bracketsTheme) {
+                        oneTimeHealthData.bracketsTheme = bracketsTheme;
+                    })
+                    .always(function () {
+                        return result.resolve(oneTimeHealthData);
+                    });
+                
             });
 
         return result.promise();
